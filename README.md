@@ -1,36 +1,23 @@
-# React Exercise - Recursion
-This is a template app for React Exercise.
+# React recursion exercise
 
-## How to start the application
-Just run `npm start`. App will be available at `localhost:3000`.
+## Install and preparation of the required files
 
-## Instructions
-Write a React component, that receives array of React Component classes (e.g. "One", "Two", "Three") as prop, then **recursively** renders HTML with those components:
-```html
-<One>
-  <Two>
-    <Three>
-    </Three>
-  </Two>
-</One>
-```
+install dependencies if necessary:
 
-Let the produced html be as followed:
+### `npm install`
 
-```html
-<div class='box'>
-  One
-  <div class='box'>
-    Two
-    <div class='box'>
-      Three
-    </div>
-  </div>
-</div>
-```
+## Usage
 
-Files that should be edited:
-- src/recursion/Recursion.js
-- src/recursion/RecursiveComponent.js
+In the project directory, you can run:
 
-Do not edit any other files.
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+## Author
+
+Łukasz Sobel
